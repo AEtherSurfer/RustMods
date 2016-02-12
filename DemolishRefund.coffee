@@ -41,7 +41,6 @@ OnStructureDemolish: (block, player, isImmediate) =>
       ia = costs[i]
       global.ItemManager.CreateByItemID(ia.itemid, ia.amount)
   else
-    print blockName
     if blockName is "wall.external.high.wood"
       blockName = "wall.external.high"
     itemdef = global.ItemManager.FindItemDefinition(block.blockDefinition.ToString())
