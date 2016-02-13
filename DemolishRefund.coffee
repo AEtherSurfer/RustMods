@@ -1,6 +1,6 @@
 Title: "DemolishRefund"
 Author: "ÆthyrSurfer"
-Version: V(0, 2, 1)
+Version: V(0, 2, 2)
 Description: "Refund the cost of demolished structures."
 isBuildable: {
   "foundation": true,
