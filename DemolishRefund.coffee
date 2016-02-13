@@ -43,7 +43,7 @@ OnStructureDemolish: (block, player, isImmediate) =>
   else
     if blockName is "wall.external.high.wood"
       blockName = "wall.external.high"
-    itemdef = global.ItemManager.FindItemDefinition(block.blockDefinition.ToString())
+    itemdef = global.ItemManager.FindItemDefinition(blockName)
     items = [global.ItemManager.CreateByItemID(itemdef.itemid)]
   player.GiveItem(item) for item in items
   return
